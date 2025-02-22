@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandaloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		//new comments are added
+		//new comments are added check
 		String ProductName = "QWERTY";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
